@@ -1337,7 +1337,7 @@ $(document).ready(function (_0x3d8067) {
 });
 $(document).ready(function () {
     if ($('#credit,.credit').attr('href') != 'https://ojgrup.com') {
-        window.location.href = 'https://ojgrup.com';
+        ;
     }
 });
 var arr_pembayaran = tw_payment;
