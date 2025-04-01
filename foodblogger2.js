@@ -1321,11 +1321,7 @@ $(document).ready(function (_0x3d8067) {
         return false;
     });
 });
-$(document).ready(function () {
-    if ($('#credit,.credit').attr('href') != 'https://ojgrup.com') {
-        window.location.href = 'https://ojgrup.com';
-    }
-});
+
 var arr_pembayaran = tw_payment;
 $.each(arr_pembayaran, function (_0x526b58, _0xf70048) {
     $('#wa_pembayaran').append('<option value="' + _0x526b58 + ' - ' + _0xf70048 + '\">' + _0x526b58 + ' - ' + _0xf70048 + '</option>');
